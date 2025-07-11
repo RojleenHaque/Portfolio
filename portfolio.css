@@ -1,6 +1,4 @@
-/* Reset */
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -9,32 +7,26 @@ body {
   font-family: 'Inter', sans-serif;
   background: #f9f9ff;
   color: #111;
-  line-height: 1.6;
+  line-height: 1.5;
 }
-
-/* Containers */
-.container {
-  width:90%;
-  max-width:1200px;
-  margin:0 auto;
+.top{
+    background-image: url(./Assets/Hero-bg.png);
 }
-
-/* Buttons */
+/*Buttons*/
 .btn{
-  background: #3b4ffe;
+  background: #4E47FF;
   color: #fff;
-  padding: 12px 24px;
+  gap: 16px;
+ 
   border: none;
-  border-radius: 4px;
+  border-radius: 8px;
   display: inline-block;
   text-decoration: none;
   font-weight: 600;
 }
-
 .btn:hover {
-  background: #2d38c4;
+  background: #c4942d;
 }
-
 .btn{
   padding: 8px 16px;
   font-size: 0.9rem;
@@ -42,11 +34,13 @@ body {
 
 /* Header */
 .container {
+    font-size: 34px;
+  padding:50px;
   display:flex;
   justify-content: space-between;
   align-items:center;
-  padding: 20px 0;
-}
+ 
+} 
 
 .header .logo {
   color: #3b4ffe;
@@ -61,13 +55,11 @@ body {
 }
 
 .hero_content h1 {
-  font-size: 2.5rem;
+  font-size: 65px;
   font-weight: 700;
   margin-bottom: 20px;
 }
-.top{
-    background-image: url(./Assets/Hero-bg.png);
-}
+
 
 /* See it in Action */
 .see_action {
@@ -81,11 +73,14 @@ body {
 
 .action-text {
   max-width: 350px;
+    margin-top: 50px;
+  
+ 
 }
 
 .action-text h2 {
-  font-size: 1.7rem;
-  margin-bottom: 10px;
+  font:bold 55px;
+  
 }
 
 .action-text p {
@@ -95,10 +90,10 @@ body {
   font-size: 1.4;
 }
 
-.img2{
-    width:40%;
+.img1{
+    width:50%;
     max-width: 400px;
-  border-radius: 10px;
+  border-radius: 48px;
 }
 
 .action-img img {
@@ -113,14 +108,15 @@ body {
 /* Stats */
 .stats {
   background: #eef0ff;
-  padding: 40px 200px;
-  margin:0 250px;
+  padding: 2%;
+  margin:0 50px;
   border: 1px solid #ddd;
-  border-radius:20px; 
+  border-radius:40px; 
 }
 .rate{
     text-align: center;
-    size: 70px;
+    font-size: 38px;
+    font-weight: 600;
 }
 .stats-box {
   display: flex;
@@ -132,17 +128,16 @@ body {
   margin: 10px;
 }
 .stat-item h3 {
-  font-size: 2rem;
+  font-size: 80px;
   color: #3b4ffe;
 }
-.stat-item p {
-  color: #333;
-}
+
 
 /* what user say */
 .ratings {
-    padding: 60px 0px;
-  margin: 60px 260px;
+  padding: 60px 0px;
+  margin-left: 160px;
+  gap:20px
 }
 .star{
     margin-bottom: 12px;
@@ -150,7 +145,7 @@ body {
 .ratings h2 {
   text-align: center;
   margin-bottom: 40px;
-  font-size: 2rem;
+  font-size: 2.2rem;
 }
 .rating-list {
   display: flex;
@@ -169,6 +164,11 @@ body {
 .rating-card p {
   margin-bottom: 15px;
 }
+.img2 {
+  width: 80px;         
+  border-radius: 50%;
+  object-fit: cover;   }
+
 .date {
   color: #999;
   font-size: 0.9rem;
@@ -180,49 +180,23 @@ body {
 }
 .rating-author h4 {
   font-weight: 600;
+  font-size: 1.4rem;
   
 }
 
 .img-section {
   display: flex;
-  justify-content:space-between;
+  
   
 }
 
-
-/* Focus Section
-.focus {
-  padding: 60px 0;
-}
-
-.container-focus {
-  align-items: center;
-}
-{
-    text-align: center;
-}
-.focus-text h2 {
-  font-size: 2rem;
-  margin-bottom: 20px;
-}
-
-.focus-img {
-  flex: 1;
-  text-align: center;
-}
-
-.focus-img img {
-  width: 100%;
-  max-width: 450px;
-  border-radius: 8px;
-} */
  .focus {
   position: relative;
-  height: 100vh; /* or any height you prefer */
+  height: 100vh; 
   background: #f8f8f8;
 }
 .focus-text h2 {
-  font-size: 2rem;
+  font-size: 71px;
   margin-bottom: 20px;
 }
 .container-focus {
@@ -244,14 +218,14 @@ body {
   max-width: 100%;
   height: auto;
   border:1px solid #ddd;
-  border-radius: 30px;
+  border-radius: 50px;
 }
 
 
 /* Contact */
 .contact {
-  height: 80vh;
-  padding: 60px 0px;
+  
+  padding:71px;
   background: #f3f3fc;
 }
 .container-contact {
@@ -261,7 +235,8 @@ body {
   align-items: center;
 }
 .contact h2 {
-  font-size: 5rem;
+  font-size: 97px;
+  font: bold;
 }
 
 .contact-form {
@@ -286,16 +261,17 @@ body {
 
 /* Footer */
 .footer {
-  padding: 30px 0;
   text-align: center;
-  background: #fff;
-  color: #333;
-  font-size: 0.9rem;
+ padding:10% 30%;
 }
-
-.footer .logo {
+.footer .logo2 {
   color: #3b4ffe;
   font-weight: bold;
   margin-bottom: 10px;
-  font-size: 1.2rem;
+  font-size: 100px;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
 }
