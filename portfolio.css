@@ -20,7 +20,7 @@ body {
 }
 
 /* Buttons */
-.btn1{
+.btn{
   background: #3b4ffe;
   color: #fff;
   padding: 12px 24px;
@@ -31,11 +31,11 @@ body {
   font-weight: 600;
 }
 
-.btn1:hover {
+.btn:hover {
   background: #2d38c4;
 }
 
-.btn1 {
+.btn{
   padding: 8px 16px;
   font-size: 0.9rem;
 }
@@ -54,3 +54,56 @@ body {
   font-size:1.5rem;
 }
 
+/* Hero Section */
+.hero_content{
+  text-align: center;
+  padding: 80px 0 60px;
+}
+
+.hero_content h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.top{
+    background-image: url(./Assets/Hero-bg.png);
+}
+
+/* See it in Action */
+.see_action {
+  padding: 100px 150px;
+}
+
+.action{
+  display: flex;
+  justify-content: space-between;
+}
+
+.action-text {
+  max-width: 350px;
+}
+
+.action-text h2 {
+  font-size: 1.7rem;
+  margin-bottom: 10px;
+}
+
+.action-text p {
+  margin-bottom: 20px;
+  color: #555;
+  opacity: 60%;
+  font-size: 1.4;
+}
+
+.img2{
+    width:40%;
+    max-width: 400px;
+  border-radius: 10px;
+}
+
+.action-img img {
+   height: 150px;
+  max-width: 150px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+}
