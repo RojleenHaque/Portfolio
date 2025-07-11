@@ -141,7 +141,8 @@ body {
 
 /* what user say */
 .ratings {
-  padding: 60px 0;
+    padding: 60px 0px;
+  margin: 60px 260px;
 }
 .star{
     margin-bottom: 12px;
@@ -155,7 +156,7 @@ body {
   display: flex;
   gap: 20px;
   /* height: 300px; */
-  justify-content: center;
+  
   flex-wrap: wrap;
 }
 .rating-card {
@@ -167,6 +168,11 @@ body {
 }
 .rating-card p {
   margin-bottom: 15px;
+}
+.date {
+  color: #999;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
 }
 .rating-author {
  margin-top: 5px;
@@ -181,4 +187,115 @@ body {
   display: flex;
   justify-content:space-between;
   
+}
+
+
+/* Focus Section
+.focus {
+  padding: 60px 0;
+}
+
+.container-focus {
+  align-items: center;
+}
+{
+    text-align: center;
+}
+.focus-text h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.focus-img {
+  flex: 1;
+  text-align: center;
+}
+
+.focus-img img {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 8px;
+} */
+ .focus {
+  position: relative;
+  height: 100vh; /* or any height you prefer */
+  background: #f8f8f8;
+}
+.focus-text h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.container-focus {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 1200px;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+.focus-text {
+  margin-bottom: 20px;
+}
+
+.focus-img img {
+  max-width: 100%;
+  height: auto;
+  border:1px solid #ddd;
+  border-radius: 30px;
+}
+
+
+/* Contact */
+.contact {
+  height: 80vh;
+  padding: 60px 0px;
+  background: #f3f3fc;
+}
+.container-contact {
+    padding-left: 10%;
+ display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+.contact h2 {
+  font-size: 5rem;
+}
+
+.contact-form {
+    align-items: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-family: inherit;
+}
+
+.contact-form button {
+  width: 100%;
+}
+
+/* Footer */
+.footer {
+  padding: 30px 0;
+  text-align: center;
+  background: #fff;
+  color: #333;
+  font-size: 0.9rem;
+}
+
+.footer .logo {
+  color: #3b4ffe;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
 }
