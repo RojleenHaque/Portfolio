@@ -107,3 +107,78 @@ body {
   border: 1px solid #ddd;
   border-radius: 50%;
 }
+
+
+
+/* Stats */
+.stats {
+  background: #eef0ff;
+  padding: 40px 200px;
+  margin:0 250px;
+  border: 1px solid #ddd;
+  border-radius:20px; 
+}
+.rate{
+    text-align: center;
+    size: 70px;
+}
+.stats-box {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.stat-item {
+  text-align: center;
+  margin: 10px;
+}
+.stat-item h3 {
+  font-size: 2rem;
+  color: #3b4ffe;
+}
+.stat-item p {
+  color: #333;
+}
+
+/* what user say */
+.ratings {
+  padding: 60px 0;
+}
+.star{
+    margin-bottom: 12px;
+}
+.ratings h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2rem;
+}
+.rating-list {
+  display: flex;
+  gap: 20px;
+  /* height: 300px; */
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.rating-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  padding: 20px;
+  max-width: 300px;
+}
+.rating-card p {
+  margin-bottom: 15px;
+}
+.rating-author {
+ margin-top: 5px;
+ margin-bottom: 5px;
+}
+.rating-author h4 {
+  font-weight: 600;
+  
+}
+
+.img-section {
+  display: flex;
+  justify-content:space-between;
+  
+}
